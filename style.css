@@ -1,25 +1,76 @@
-html{
-    background-color: rgba(143, 172, 163, 0.815);
+html {
+    background-image: url('/img/sitebg.jpg');
+    margin: 2.5vh;
 }
-header{
+
+
+header {
     background: white;
     border: 2px solid black;
     height: 100%;
-    width: 75vw;
+    width: 70vw;
     margin: auto;
+    box-shadow: 10px 10px gray;
 }
-.main > h1{
- text-align: center;
- font-weight: bolder;
- font-style: italic;
- font-size: 300%;
+
+.main>h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 300%;
 }
-.main > p{
+
+.main>p {
     margin-left: 20%;
 }
-.main > img{
-    height: 15%;
-    width: 10%;
-    position: absolute;
-    top: 5%;
+#logo{
+    font-family: cursive;
+    font-style: italic;
+}
+.nav,
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    text-indent: 15px;
+    font-size: 100%;
+    position: relative;
+    bottom: 45%;
+    color: black;
+}
+.text1{
+    margin-left: 1%;
+    display: inline-flex;
+}
+.quotebox{
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 10%;
+    box-shadow: 5px 10px gray;
+    margin-right: 1%;
+    height: 10%;
+    width: 110%;
+}
+.quoteheading{
+    border: 1px solid black;
+    background-color: darkslategray;
+    display: block;
+    height: 10%;
+    color: aliceblue;
+    font-weight:400;
+    box-sizing:content-box;
+}
+.links {
+    border:2px solid black;
+    margin: 2%;
+    background-color: darkslategray;
+    box-shadow: 5px 5px gray;
+    color: aliceblue;
+    font-style: italic;
+}
+ol, li, a{
+    display: block;
+    list-style: decimal;font-weight: 600;
 }
