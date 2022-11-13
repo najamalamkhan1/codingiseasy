@@ -1,16 +1,19 @@
 html {
-    background-image: url('/img/sitebg.jpg');
+    background-image: url('/img/bgg.jpg');
+    background-repeat: repeat;
     margin: 2.5vh;
+    font-family: 'Playfair Display', serif;
 }
 
 
 header {
     background: white;
+    opacity: 0.9;
     border: 1px solid black;
     height: 100%;
     width: 70vw;
     margin: auto;
-    box-shadow: 10px 10px lightgray;
+    box-shadow: 8px 5px lightgray;
 }
 
 .main>p {
