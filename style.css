@@ -8,12 +8,15 @@ html {
 
 header {
     background: white;
-    opacity: 0.9;
-    border: 1px solid black;
+    border-radius: 5px;
     height: 100%;
     width: 70vw;
     margin: auto;
     box-shadow: 8px 5px lightgray;
+}
+
+.x-line{
+    margin: 1%;
 }
 
 .main>p {
@@ -110,4 +113,9 @@ a {
     text-align: justify;
     /* padding: %; */
     margin-bottom: 5%;
+    font-size: large;
+}
+/* link 2 css*/
+.table1{
+border: 2px solid black;
 }

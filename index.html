@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="/style.css" />
 
     <!-- Google fonts imported -->
-    <link href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Baloo+Bhai+2&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Baloo+Bhai+2&family=Playfair+Display&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,23 +21,23 @@
             <div class="main">
                 <h1>Welcome to SharkHTML5!</h1>
                 <p><i>The Way of playing with Coding</i></p>
-                
+
                 <img src="/img/7kc6_3vqr_220819-removebg-preview.png" alt="" id="logo" />
 
             </div>
         </div>
-        <hr />
+        <hr class="x-line" />
         <div class="nav">
             <ul>
                 <li>
-                    <a href="">Main Page</a>
+                    <a href="/index.html">Main Page</a>
                 </li>
                 <li>
                     <a href=""> <b> About</b></a>
                 </li>
             </ul>
         </div>
-        <hr/>
+        <hr class="x-line" />
         <div class="text1">
             <p>
                 Welcome to my teeny website about clever strategies and dirty tricks for creating awesome websites! The
@@ -52,12 +54,11 @@
 
             </p>
             <div class="quotebox">
+                <p id="qtsec"></p>
                 <span class="quoteheading">
-                    <h1>Quote Of the day</h1>
+                    <h1 id="qthd"></h1>
                 </span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio et molestias quas expedita est
-                    quibusdam
-                    repudiandae?</p>
+                <p id="qtsec1"></p>
             </div>
         </div>
 
@@ -66,16 +67,19 @@
             <h1 class="links">Where Do you Starting From?</h1>
             <ol>
                 <li class="item">
-                    <a href="./Starting a New Site.html#_self" class="item">&rarr; I want to make a website! Where do I start?</a>
+                    <a href="./Starting a New Site.html#_self" class="item">&rarr; I want to make a website! Where do I
+                        start?</a>
                 </li>
                 <li class="item">
-                    <a href="" class="item">&rarr; General rules for designing websites</a>
+                    <a href="/General rules for designing websites.html" class="item">&rarr; General rules for designing
+                        websites</a>
                 </li>
                 <li class="item">
                     <a href="" class="item">&rarr; Navigation panes for websites</a>
                 </li>
                 <li class="item">
-                    <a href="" class="item">&rarr; The first page. Naming and the initial incantations to make it all work</a>
+                    <a href="" class="item">&rarr; The first page. Naming and the initial incantations to make it all
+                        work</a>
                 </li>
                 <li class="item">
                     <a href="" class="item">&rarr; Tags, the elements that makes the page work</a>
@@ -84,16 +88,17 @@
                     <a href="" class="item">&rarr; Meta tags, background elements that helps make the page work</a>
                 </li>
                 <li class="item">
-                    <a href="" class="item">&rarr; Attributes, how to get something other than standard setting on your tags</a>
+                    <a href="" class="item">&rarr; Attributes, how to get something other than standard setting on your
+                        tags</a>
                 </li>
                 <li class="item">
                     <a href="" class="item">&rarr; Header-, footer- and navigation-tags</a>
                 </li>
                 <li class="item">
-                    <a href=""  class="item">&rarr; New HTML 5-tags in old browsers</a>
+                    <a href="" class="item">&rarr; New HTML 5-tags in old browsers</a>
                 </li>
                 <li class="item">
-                    <a href=""  class="item">&rarr; Optimizing web sites for search engines (SEO and SERP)</a>
+                    <a href="" class="item">&rarr; Optimizing web sites for search engines (SEO and SERP)</a>
                 </li>
 
             </ol>
@@ -114,7 +119,8 @@
                     <a href="" class="item">&rarr; Navigation panes for websites</a>
                 </li>
                 <li class="item">
-                    <a href="" class="item">&rarr; The first page. Naming and the initial incantations to make it all work</a>
+                    <a href="" class="item">&rarr; The first page. Naming and the initial incantations to make it all
+                        work</a>
                 </li>
                 <li class="item">
                     <a href="" class="item">&rarr; Tags, the elements that makes the page work</a>
@@ -123,16 +129,17 @@
                     <a href="" class="item">&rarr; Meta tags, background elements that helps make the page work</a>
                 </li>
                 <li class="item">
-                    <a href="" class="item">&rarr; Attributes, how to get something other than standard setting on your tags</a>
+                    <a href="" class="item">&rarr; Attributes, how to get something other than standard setting on your
+                        tags</a>
                 </li>
                 <li class="item">
                     <a href="" class="item">&rarr; Header-, footer- and navigation-tags</a>
                 </li>
                 <li class="item">
-                    <a href=""  class="item">&rarr; New HTML 5-tags in old browsers</a>
+                    <a href="" class="item">&rarr; New HTML 5-tags in old browsers</a>
                 </li>
                 <li class="item">
-                    <a href=""  class="item">&rarr; Optimizing web sites for search engines (SEO and SERP)</a>
+                    <a href="" class="item">&rarr; Optimizing web sites for search engines (SEO and SERP)</a>
                 </li>
 
             </ol>
@@ -144,9 +151,26 @@
 
 
 
+    <script>
+        let a = document.getElementById('qthd');
+        a.innerHTML = "Today Quote";
+        a.style.height = "2vh"
+        a.style.fontSize = "20px"
+        a.style.textAlign = "center";
+        a.style.marginBottom = "10px";
+        a.style.marginTop = "1px";
+        
+        let b = document.getElementById("qtsec1");
+        b.innerHTML = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt maxime aut cupiditate facilis minima officiis.";
+        b.style.textAlign = "justify";
+        b.style.backgroundImage = "url('https://images.pexels.com/photos/14300321/pexels-photo-14300321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"
 
-
-    <script src="/main.js"></script>
+        let c = document.getElementById('qtsec')
+        c.innerHTML = "Good Evening";
+        c.style.background ="wheat";
+        c.style.textAlign = "center";
+        c.style.height = "5vh"
+    </script>
 </body>
 
 </html>
