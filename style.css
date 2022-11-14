@@ -7,50 +7,54 @@ html {
 
 
 header {
-    background: white;
+    /* background: white; */
     border-radius: 5px;
     height: 100%;
     width: 70vw;
     margin: auto;
-    box-shadow: 8px 5px lightgray;
+    /* box-shadow: 8px 5px lightgray; */
 }
-
-.x-line{
-    margin: 1%;
-}
-
 .main>p {
     margin: 4%;
 }
 
 .main>h1 {
+    background-color: aliceblue;
     text-align: center;
     font-weight: bolder;
     font-style: italic;
     font-size: 300%;
+    box-shadow: 5px 8px gray;
 }
 
 .main>p {
+    box-shadow: 5px 8px gray;
     margin-left: 20%;
+    background-color: aliceblue;
 }
 
 #logo {
+    
     width: 15%;
     height: auto;
     position: absolute;
     top: 5%;
 }
 
-.nav,
+.nav{
+
+    background-color: aliceblue;
+    box-shadow: 5px 8px gray;
+}
 ul,
 li,
 a {
-    text-decoration: none;
     list-style: none;
-    display: inline-flex;
+    text-decoration: none;
+    display: flex;
     text-indent: 15px;
     font-size: 100%;
-    position: relative;
+    /* position: relative; */
     bottom: 45%;
     color: black;
 }
@@ -60,6 +64,8 @@ a:active {
 }
 
 .text1 {
+    box-shadow: 5px 8px gray;
+    background-color: aliceblue;
     margin-left: 1%;
     display: inline-flex;
 }
@@ -72,6 +78,7 @@ a:active {
     margin-right: 1%;
     height: 10%;
     width: 110%;
+    background-color: aliceblue;
 }
 
 .quoteheading {
@@ -105,17 +112,21 @@ a {
 .content>h3 {
     margin: 1%;
     margin-top: 5%;
+    background-color: aliceblue;
+    box-shadow: 5px 8px gray;
 }
 
 .content>p {
+    background-color: aliceblue;
+    box-shadow: 5px 8px gray;
     margin-left: 10%;
     margin-right: 5%;
     text-align: justify;
-    /* padding: %; */
     margin-bottom: 5%;
     font-size: large;
 }
-/* link 2 css*/
-.table1{
-border: 2px solid black;
+ol,li{
+    background-color: aliceblue;
+    box-shadow: 5px 8px gray;
 }
+/* link 2 css*/ 
