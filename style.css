@@ -7,12 +7,12 @@ html {
 
 
 header {
-    /* background: white; */
+    /* background: white;   */
     border-radius: 5px;
     height: 100vh;
     width: 70vw;
     margin: auto;
-    /* box-shadow: 8px 5px lightgray; */
+    /* box-shadow: 8px 5px gray; */
 }
 
 .main-links>p {
@@ -59,9 +59,7 @@ a {
     text-decoration: none;
     display: flex;
     text-indent: 15px;
-    /* vertical-align: middle; */
     font-size: 100%;
-    /* position: relative; */
     bottom: 45%;
     color: black;
 }
@@ -123,6 +121,13 @@ a {
     box-shadow: 5px 8px gray;
 }
 
+.content>h4 {
+    margin: 1%;
+    margin-top: 5%;
+    background-color: aliceblue;
+    box-shadow: 5px 8px gray;
+}
+
 .content>p {
     background-color: aliceblue;
     box-shadow: 5px 8px gray;
@@ -139,4 +144,9 @@ li {
     box-shadow: 5px 8px gray;
 }
 
-/* link 2 css*/
+.var-tab-manu {
+    height: 2vh;
+    width: 10vw;
+    margin: auto;
+
+}
